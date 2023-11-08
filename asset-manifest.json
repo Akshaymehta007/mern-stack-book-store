@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mern-stack-book-store/static/css/main.0ccbfb23.css",
+    "main.js": "/mern-stack-book-store/static/js/main.94a1b98a.js",
+    "index.html": "/mern-stack-book-store/index.html",
+    "main.0ccbfb23.css.map": "/mern-stack-book-store/static/css/main.0ccbfb23.css.map",
+    "main.94a1b98a.js.map": "/mern-stack-book-store/static/js/main.94a1b98a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ccbfb23.css",
+    "static/js/main.94a1b98a.js"
+  ]
+}
