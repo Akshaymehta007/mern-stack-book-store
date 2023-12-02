@@ -12,6 +12,7 @@ app.use(express.json())//This will convert the data into JSON format so that our
 app.use(cors());
 app.use("/books", router);
 
+const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, 'book-store', 'build')));
 app.get('*', (req,res) =>{
     res.sendFile(path.join(__dirname, 'book-store', 'build', 'index.html'));
