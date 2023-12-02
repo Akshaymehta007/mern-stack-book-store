@@ -1,0 +1,16 @@
+{
+  "name": "book-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node Backend.app.js",
+    "server": "nodemon Backend/app.js",
+    "build": "npm install && npm install --prefix book-store && npm run build --prefix book-store",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+ 
+  },
+  "author": "",
+  "license": "ISC"
+}
