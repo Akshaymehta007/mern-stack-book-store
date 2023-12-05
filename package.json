@@ -4,9 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node Backend.app.js",
-    "server": "nodemon Backend/app.js",
-    "build": "npm install --prefix book-store && npm run build --prefix book-store",
+    "start": "node app.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
  

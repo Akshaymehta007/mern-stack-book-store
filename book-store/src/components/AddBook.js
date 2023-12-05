@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Box, Button, FormLabel, TextField, FormControlLabel, Checkbox } from '@mui/material';
 import {useNavigate} from "react-router-dom";
 import axios from 'axios';
+const BASE_URL = process.env.BASE_URL;
 
 const AddBook = () => {
   const history = useNavigate();
@@ -23,7 +24,7 @@ const AddBook = () => {
  };
 
  const sendRequest = async() => {
-axios.post("http://localhost:5000/books",{
+axios.post(`${BASE_URL}/books`,{
   name: String(inputs.name),
   author: String(inputs.author),
   description: String(inputs.description),
