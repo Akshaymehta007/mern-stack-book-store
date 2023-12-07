@@ -11,7 +11,7 @@ app.use(express.json())//This will convert the data into JSON format so that our
 app.use(cors());
 app.use("/books", router);
 
-mongoose.connect("mongodb+srv://admin:OACY3KWpz4JeEHcE@cluster0.taseyg5.mongodb.net/?retryWrites=true&w=majority").then(()=>console.log("Connected to Database"))
+mongoose.connect("mongodb+srv://admin:OACY3KWpz4JeEHcE@cluster0.taseyg5.mongodb.net/test?retryWrites=true&w=majority").then(()=>console.log("Connected to Database"))
 .then(() => {
     console.log("Connected to Database");
     app.listen(PORT, () => {
